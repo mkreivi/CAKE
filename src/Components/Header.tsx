@@ -1,10 +1,8 @@
-import { Box } from "@mui/material";
-
+import { Box, Typography } from "@mui/material";
 function Header() {
   return (
     <Box>
-      Hej
-      <h1>Header</h1>
+      <Typography>Header</Typography>
     </Box>
   );
 }
